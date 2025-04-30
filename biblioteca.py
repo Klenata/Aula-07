@@ -30,3 +30,7 @@ def numero(num):
         return "N"
     else:
         return "Z"
+
+def somaValores(v1, v2):
+    soma = v1 + v2
+    print(soma)
