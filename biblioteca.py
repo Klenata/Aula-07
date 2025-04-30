@@ -22,3 +22,11 @@ def valorEstoque(produto, valor, quantidade):
     total = valor * quantidade
     print()
     print(f"O item {produto}, tem um total de R${total} de estoque")
+
+def numero(num):
+    if num > 0:
+        return"P"
+    elif num < 0:
+        return "N"
+    else:
+        return "Z"
