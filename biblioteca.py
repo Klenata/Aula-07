@@ -10,3 +10,10 @@ def piramide(num):
         for x in range(0, i):
             print(i, end=" ")
         print()
+
+def contaVogais(texto):
+    cont = 0
+    for i in range(len(texto)):
+        if texto[i] in "aeiouáéíóúâêîôûàèìòùãõü":
+            cont += 1
+    print(cont)
