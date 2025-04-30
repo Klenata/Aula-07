@@ -34,3 +34,9 @@ def numero(num):
 def somaValores(v1, v2):
     soma = v1 + v2
     print(soma)
+
+def somaTValores(*numeros):
+    soma = 0
+    for i in range(len(numeros)):
+        soma += numeros[i]
+    print(soma)
