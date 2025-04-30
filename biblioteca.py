@@ -17,3 +17,8 @@ def contaVogais(texto):
         if texto[i] in "aeiouáéíóúâêîôûàèìòùãõü":
             cont += 1
     print(cont)
+
+def valorEstoque(produto, valor, quantidade):
+    total = valor * quantidade
+    print()
+    print(f"O item {produto}, tem um total de R${total} de estoque")
